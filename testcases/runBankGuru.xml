@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Bank Guru" parallel="false">
+  <test name="com.bankguru.login">
+    <classes>
+      <class name="com.bankguru.login.Login_01_CreateAccount"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank Guru]">
+  <test name="com.bankguru.login(failed)">
+    <classes>
+      <class name="com.bankguru.login.Login_01_CreateAccount">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC01_CreateAccount"/>
+          <include name="TC02_LoginWithAboveInfo"/>
+        </methods>
+      </class> <!-- com.bankguru.login.Login_01_CreateAccount -->
+    </classes>
+  </test> <!-- com.bankguru.login(failed) -->
+</suite> <!-- Failed suite [Bank Guru] -->
