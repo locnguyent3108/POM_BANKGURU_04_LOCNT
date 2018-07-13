@@ -50,7 +50,7 @@ public class AbstractPage {
 		select.selectByVisibleText(textItem);
 	}
 	
-	public String getFirstItemSelected(WebDriver driver, String locator) {
+	public String getFistItemSelected(WebDriver driver, String locator) {
 		WebElement element = driver.findElement(By.xpath(locator));
 		Select select = new Select(element);
 		return select.getFirstSelectedOption().getText();
